@@ -17,7 +17,9 @@
       "Bash(xargs kill -9)",
       "Bash(lsof -ti:3001)",
       "Bash(npx jest *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(npm test *)",
+      "Bash(npm run *)"
     ]
   }
 }
