@@ -62,7 +62,7 @@ export default async function HomePage() {
               Alle Sneaker
             </Link>
             <Link
-              href="/sneaker?badge=Bestseller"
+              href="/sneaker?style=lifestyle"
               className="font-dm-sans text-xs tracking-widest uppercase px-8 py-4 bg-[#E8E0D5] text-[#1A1A1A] hover:bg-white transition-colors"
             >
               Top Picks
