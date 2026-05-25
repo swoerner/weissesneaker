@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/swoerner/Desktop/Coding/**)",
+      "Bash(mv weissesneaker/.superpowers /tmp/weissesneaker_superpowers)",
+      "Bash(mv weissesneaker/docs /tmp/weissesneaker_docs)",
+      "Bash(npx create-next-app@14 weissesneaker --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes)",
+      "Bash(cd *)"
+    ]
+  }
+}

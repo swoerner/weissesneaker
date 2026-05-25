@@ -1,0 +1,118 @@
+<h2>Homepage Layout — welche Struktur gefällt dir?</h2>
+<p class="subtitle">Für die Hero-Section und den Featured-Sneaker-Bereich</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="editorial" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#FAFAFA;padding:16px;font-family:'Georgia',serif;">
+      <div style="background:#1A1A1A;color:#FAFAFA;padding:32px 20px;text-align:center;margin-bottom:12px;">
+        <div style="font-size:11px;letter-spacing:4px;margin-bottom:8px;color:#E8E0D5;">WEISSESNEAKER.DE</div>
+        <div style="font-size:22px;font-weight:700;margin-bottom:6px;">Die besten weißen Sneaker 2025</div>
+        <div style="font-size:11px;color:#aaa;margin-bottom:16px;">Kuratiert. Unabhängig. Ehrlich.</div>
+        <div style="display:inline-block;background:#E8E0D5;color:#1A1A1A;padding:8px 20px;font-size:11px;letter-spacing:2px;">JETZT ENTDECKEN</div>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;">
+        <div style="background:#fff;border:1px solid #eee;padding:10px;">
+          <div style="background:#f0f0f0;height:60px;margin-bottom:8px;"></div>
+          <div style="font-size:9px;font-weight:700;">Air Force 1</div>
+          <div style="font-size:8px;color:#888;">Nike · ab 110 €</div>
+          <div style="background:#1A1A1A;color:#fff;font-size:8px;padding:4px;text-align:center;margin-top:6px;">KAUFEN</div>
+        </div>
+        <div style="background:#fff;border:1px solid #eee;padding:10px;">
+          <div style="background:#f0f0f0;height:60px;margin-bottom:8px;"></div>
+          <div style="font-size:9px;font-weight:700;">Stan Smith</div>
+          <div style="font-size:8px;color:#888;">Adidas · ab 90 €</div>
+          <div style="background:#1A1A1A;color:#fff;font-size:8px;padding:4px;text-align:center;margin-top:6px;">KAUFEN</div>
+        </div>
+        <div style="background:#fff;border:1px solid #eee;padding:10px;">
+          <div style="background:#f0f0f0;height:60px;margin-bottom:8px;"></div>
+          <div style="font-size:9px;font-weight:700;">Achilles Low</div>
+          <div style="font-size:8px;color:#888;">Common Projects · ab 420 €</div>
+          <div style="background:#1A1A1A;color:#fff;font-size:8px;padding:4px;text-align:center;margin-top:6px;">KAUFEN</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A – Editorial / Magazin</h3>
+      <p>Schwarzes Hero-Banner mit beigem Akzent. Gleichmäßiges 3-Spalten-Grid für Featured Sneaker. Klar, clean, wie ein Print-Magazin.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="asymmetric" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#FAFAFA;padding:16px;font-family:'Georgia',serif;">
+      <div style="display:grid;grid-template-columns:1.4fr 1fr;gap:0;margin-bottom:12px;min-height:120px;">
+        <div style="background:#1A1A1A;color:#FAFAFA;padding:24px 16px;">
+          <div style="font-size:9px;letter-spacing:3px;color:#E8E0D5;margin-bottom:8px;">2025</div>
+          <div style="font-size:18px;font-weight:700;line-height:1.2;margin-bottom:10px;">Die besten<br/>weißen<br/>Sneaker</div>
+          <div style="background:#E8E0D5;color:#1A1A1A;padding:6px 14px;font-size:9px;display:inline-block;letter-spacing:2px;">ENTDECKEN</div>
+        </div>
+        <div style="background:#E8E0D5;display:flex;align-items:center;justify-content:center;">
+          <div style="background:#ddd;width:80px;height:80px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:9px;color:#999;">BILD</div>
+        </div>
+      </div>
+      <div style="display:grid;grid-template-columns:2fr 1fr;gap:8px;">
+        <div style="background:#fff;border:1px solid #eee;padding:10px;display:flex;gap:8px;">
+          <div style="background:#f0f0f0;width:50px;height:50px;flex-shrink:0;"></div>
+          <div>
+            <div style="font-size:9px;font-weight:700;">Air Force 1</div>
+            <div style="font-size:8px;color:#888;margin-bottom:4px;">Nike · Bestseller · ab 110 €</div>
+            <div style="background:#1A1A1A;color:#fff;font-size:7px;padding:3px 8px;display:inline-block;">KAUFEN</div>
+          </div>
+        </div>
+        <div style="background:#fff;border:1px solid #eee;padding:10px;">
+          <div style="background:#f0f0f0;height:40px;margin-bottom:6px;"></div>
+          <div style="font-size:8px;font-weight:700;">Stan Smith</div>
+          <div style="font-size:7px;color:#888;">Adidas · ab 90 €</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B – Asymmetrisch / Modern</h3>
+      <p>Split-Hero (Text links, Feature-Bild rechts in Beige). Großes Hero-Produkt prominent, kleinere Karten daneben. Dynamischer, zeitgenössischer.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="fullwidth" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#FAFAFA;padding:16px;font-family:'Georgia',serif;">
+      <div style="background:#1A1A1A;padding:24px 16px;text-align:center;margin-bottom:12px;position:relative;overflow:hidden;">
+        <div style="position:absolute;top:0;left:0;right:0;bottom:0;background:repeating-linear-gradient(45deg,#222,#222 2px,#1A1A1A 2px,#1A1A1A 12px);opacity:0.3;"></div>
+        <div style="position:relative;">
+          <div style="font-size:9px;letter-spacing:4px;color:#E8E0D5;margin-bottom:6px;">WEISSESNEAKER.DE</div>
+          <div style="font-size:20px;font-weight:700;color:#fff;margin-bottom:4px;">Die besten weißen Sneaker 2025</div>
+          <div style="font-size:9px;color:#888;margin-bottom:12px;">Testberichte · Preisvergleich · Pflege-Tipps</div>
+          <div style="display:inline-block;border:1px solid #E8E0D5;color:#E8E0D5;padding:6px 16px;font-size:9px;letter-spacing:2px;margin-right:6px;">ALLE SNEAKER</div>
+          <div style="display:inline-block;background:#E8E0D5;color:#1A1A1A;padding:6px 16px;font-size:9px;letter-spacing:2px;">TOP PICKS</div>
+        </div>
+      </div>
+      <div style="display:flex;gap:6px;overflow:hidden;">
+        <div style="background:#fff;border:1px solid #eee;padding:10px;flex:1;min-width:0;">
+          <div style="background:#f0f0f0;height:55px;margin-bottom:6px;"></div>
+          <div style="font-size:8px;color:#E8E0D5;background:#1A1A1A;display:inline-block;padding:2px 5px;margin-bottom:3px;">TREND</div>
+          <div style="font-size:9px;font-weight:700;">Air Force 1</div>
+          <div style="font-size:8px;color:#888;">ab 110 €</div>
+        </div>
+        <div style="background:#fff;border:1px solid #eee;padding:10px;flex:1;min-width:0;">
+          <div style="background:#f0f0f0;height:55px;margin-bottom:6px;"></div>
+          <div style="font-size:8px;color:#E8E0D5;background:#1A1A1A;display:inline-block;padding:2px 5px;margin-bottom:3px;">BESTSELLER</div>
+          <div style="font-size:9px;font-weight:700;">Stan Smith</div>
+          <div style="font-size:8px;color:#888;">ab 90 €</div>
+        </div>
+        <div style="background:#fff;border:1px solid #eee;padding:10px;flex:1;min-width:0;">
+          <div style="background:#f0f0f0;height:55px;margin-bottom:6px;"></div>
+          <div style="font-size:8px;color:#E8E0D5;background:#1A1A1A;display:inline-block;padding:2px 5px;margin-bottom:3px;">NEU</div>
+          <div style="font-size:9px;font-weight:700;">Achilles Low</div>
+          <div style="font-size:8px;color:#888;">ab 420 €</div>
+        </div>
+        <div style="background:#fff;border:1px solid #eee;padding:10px;flex:1;min-width:0;opacity:0.5;">
+          <div style="background:#f0f0f0;height:55px;margin-bottom:6px;"></div>
+          <div style="font-size:8px;color:#888;">+ 9 mehr</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C – Bold / Full-Width Hero</h3>
+      <p>Dramatisches, texturiertes Hero über volle Breite. Zwei CTAs (Alle Sneaker / Top Picks). Horizontal-scrollender Sneaker-Streifen darunter. Maximale Wirkung.</p>
+    </div>
+  </div>
+
+</div>
