@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { createClient } from '@/lib/supabase/server'
 import type { Sneaker } from '@/lib/types'
 import SneakerCard from '@/components/SneakerCard'
+import NewsletterForm from '@/components/NewsletterForm'
 
 export const metadata: Metadata = {
   title: 'Die besten weißen Sneaker 2025 | weissesneaker.de',
@@ -129,6 +130,24 @@ export default async function HomePage() {
             </Link>
           </div>
           <div className="hidden md:block w-48 h-48 bg-[#F5F5F5] flex-shrink-0" />
+        </div>
+      </section>
+
+      {/* Newsletter */}
+      <section className="bg-[#1A1A1A]">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
+          <p className="font-dm-sans text-[10px] tracking-widest uppercase text-[#E8E0D5] mb-3">
+            Newsletter
+          </p>
+          <h2 className="font-playfair text-3xl font-bold text-white mb-4">
+            Immer up to date
+          </h2>
+          <p className="font-dm-sans text-sm text-[#888] mb-8">
+            Neue Sneaker, exklusive Deals und Pflege-Tipps — direkt in dein Postfach.
+          </p>
+          <div className="max-w-md mx-auto">
+            <NewsletterForm />
+          </div>
         </div>
       </section>
 
