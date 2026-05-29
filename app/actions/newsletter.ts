@@ -32,6 +32,7 @@ export async function subscribeNewsletter(
     if (error.code === '23505') {
       return { error: 'Diese E-Mail ist bereits registriert.' }
     }
+    console.error('Newsletter insert error:', error.message)
     return { error: 'Ein Fehler ist aufgetreten. Bitte versuche es später erneut.' }
   }
 
