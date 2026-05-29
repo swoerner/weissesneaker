@@ -26,6 +26,7 @@ describe('NewsletterExport', () => {
 
     expect(createObjectURL).toHaveBeenCalled()
     expect(clickSpy).toHaveBeenCalled()
+    expect(revokeObjectURL).toHaveBeenCalled()
 
     clickSpy.mockRestore()
   })
