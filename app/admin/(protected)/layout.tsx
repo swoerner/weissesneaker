@@ -32,6 +32,12 @@ export default async function AdminLayout({
             >
               Sneaker
             </a>
+            <a
+              href="/admin/newsletter"
+              className="text-xs text-[#888] hover:text-white transition-colors"
+            >
+              Newsletter
+            </a>
           </div>
           <div className="flex items-center gap-4 text-xs text-[#888]">
             <span>{user.email}</span>
